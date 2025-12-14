@@ -10,7 +10,7 @@
     "moneda": "COP",
     "unidadMedida": "barra 100 g",
     "stock": 100,
-    "imagen": "/img/productos/jabon-barra-clasico.jpg",
+    "imagen": "/assets/productos/jabon-barra-clasico.webp",
     "activo": true
   },
   {
@@ -24,7 +24,7 @@
     "moneda": "COP",
     "unidadMedida": "barra 100 g",
     "stock": 80,
-    "imagen": "/img/productos/jabon-barra-hidratante.jpg",
+    "imagen": "/assets/productos/jabon-barra-hidratante.webp",
     "activo": true
   },
   {
@@ -38,7 +38,7 @@
     "moneda": "COP",
     "unidadMedida": "barra 110 g",
     "stock": 60,
-    "imagen": "/img/productos/jabon-barra-exfoliante-suave.jpg",
+    "imagen": "/assets/productos/jabon-barra-exfoliante-suave.jpg",
     "activo": true
   },
   {
@@ -52,7 +52,7 @@
     "moneda": "COP",
     "unidadMedida": "barra 90 g",
     "stock": 70,
-    "imagen": "/img/productos/jabon-barra-neutro.jpg",
+    "imagen": "/assets/productos/jabon-barra-neutro.jpg",
     "activo": true
   },
   {
@@ -66,7 +66,7 @@
     "moneda": "COP",
     "unidadMedida": "barra 100 g",
     "stock": 90,
-    "imagen": "/img/productos/jabon-barra-perfumado-floral.jpg",
+    "imagen": "/assets/productos/jabon-barra-perfumado-floral.jpg",
     "activo": true
   },
   {
@@ -80,7 +80,7 @@
     "moneda": "COP",
     "unidadMedida": "barra 100 g",
     "stock": 55,
-    "imagen": "/img/productos/jabon-barra-avena.jpg",
+    "imagen": "/assets/productos/jabon-barra-avena.webp",
     "activo": true
   },
   {
@@ -94,7 +94,7 @@
     "moneda": "COP",
     "unidadMedida": "frasco 250 ml",
     "stock": 120,
-    "imagen": "/img/productos/jabon-liquido-manos-clasico.jpg",
+    "imagen": "/assets/productos/jabon-liquido-manos-clasico.webp",
     "activo": true
   },
   {
@@ -108,7 +108,7 @@
     "moneda": "COP",
     "unidadMedida": "frasco 300 ml",
     "stock": 90,
-    "imagen": "/img/productos/jabon-liquido-manos-hidratante.jpg",
+    "imagen": "/assets/productos/jabon-liquido-manos-hidratante.webp",
     "activo": true
   },
   {
@@ -122,7 +122,7 @@
     "moneda": "COP",
     "unidadMedida": "frasco 400 ml",
     "stock": 75,
-    "imagen": "/img/productos/jabon-liquido-citrico.jpg",
+    "imagen": "/assets/productos/jabon-liquido-citrico.png",
     "activo": true
   },
   {
@@ -136,7 +136,7 @@
     "moneda": "COP",
     "unidadMedida": "botella 1 L",
     "stock": 50,
-    "imagen": "/img/productos/jabon-liquido-familiar-1l.jpg",
+    "imagen": "/assets/productos/jabon-liquido-familiar-1l.webp",
     "activo": true
   },
   {
@@ -150,7 +150,7 @@
     "moneda": "COP",
     "unidadMedida": "frasco 250 ml",
     "stock": 65,
-    "imagen": "/img/productos/jabon-liquido-piel-sensible.jpg",
+    "imagen": "/assets/productos/jabon-liquido-piel-sensible.webp",
     "activo": true
   },
   {
@@ -164,7 +164,7 @@
     "moneda": "COP",
     "unidadMedida": "frasco 300 ml",
     "stock": 70,
-    "imagen": "/img/productos/jabon-liquido-aloe-vera.jpg",
+    "imagen": "/assets/productos/jabon-liquido-aloe-vera.png",
     "activo": true
   },
   {
@@ -178,7 +178,7 @@
     "moneda": "COP",
     "unidadMedida": "barra 90 g",
     "stock": 110,
-    "imagen": "/img/productos/jabon-antibacterial-barra-clasico.jpg",
+    "imagen": "/assets/productos/jabon-antibacterial-barra-clasico.png",
     "activo": true
   },
   {
@@ -192,7 +192,7 @@
     "moneda": "COP",
     "unidadMedida": "barra 100 g",
     "stock": 90,
-    "imagen": "/img/productos/jabon-antibacterial-barra-hidratante.jpg",
+    "imagen": "/assets/productos/jabon-antibacterial-barra-hidratante.jpg",
     "activo": true
   },
   {
@@ -206,7 +206,7 @@
     "moneda": "COP",
     "unidadMedida": "frasco 250 ml",
     "stock": 130,
-    "imagen": "/img/productos/jabon-antibacterial-liquido-manos.jpg",
+    "imagen": "/assets/productos/jabon-antibacterial-liquido-manos.jpg",
     "activo": true
   },
   {
@@ -220,7 +220,7 @@
     "moneda": "COP",
     "unidadMedida": "bolsa 500 ml",
     "stock": 70,
-    "imagen": "/img/productos/jabon-antibacterial-recarga-500.jpg",
+    "imagen": "/assets/productos/jabon-antibacterial-recarga-500.webp",
     "activo": true
   },
   {
@@ -234,7 +234,7 @@
     "moneda": "COP",
     "unidadMedida": "botella 1 L",
     "stock": 45,
-    "imagen": "/img/productos/jabon-antibacterial-liquido-1l.jpg",
+    "imagen": "/assets/productos/jabon-antibacterial-liquido-1l.webp",
     "activo": true
   },
   {
@@ -248,7 +248,7 @@
     "moneda": "COP",
     "unidadMedida": "barra 60 g",
     "stock": 150,
-    "imagen": "/img/productos/jabon-antibacterial-barra-viaje.jpg",
+    "imagen": "/assets/productos/jabon-antibacterial-barra-viaje.webp",
     "activo": true
   },
   {
@@ -262,7 +262,7 @@
     "moneda": "COP",
     "unidadMedida": "frasco 300 ml",
     "stock": 85,
-    "imagen": "/img/productos/jabon-antibacterial-liquido-aloe.jpg",
+    "imagen": "/assets/productos/jabon-antibacterial-liquido-aloe.webp",
     "activo": true
   },
   {
@@ -274,9 +274,9 @@
     "descripcionLarga": "Jabón antibacterial de 250 ml en dispensador de espuma que facilita el lavado de manos, ideal para niños.",
     "precio": 22500,
     "moneda": "COP",
-    "unidadMedida": "frasco 250 ml",
+    "unidadMedida": "frasco 260 ml",
     "stock": 60,
-    "imagen": "/img/productos/jabon-antibacterial-espuma-manos.jpg",
+    "imagen": "/assets/productos/jabon-antibacterial-espuma-manos.webp",
     "activo": true
   }
 ]

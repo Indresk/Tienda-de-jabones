@@ -1,19 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Navbar,NavbarBrand, NavbarContent,NavbarItem, NavbarMenuToggle,NavbarMenu,NavbarMenuItem} from "@heroui/navbar";
 import { NavLink } from 'react-router-dom';
 import CartWidget from './CartWidget.jsx'
 
-function NavBar(){
+function NavBar({menuItems}){
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-    
-    useEffect
-
-    const menuItems = [
-    {name: "Catálogo", link: "/"},
-    {name: "Barra", link: "/categoria/barra"},
-    {name: "Líquidos", link: "/categoria/liquidos"},
-    {name: "Antibacteriales", link: "/categoria/antibacteriales"},
-  ];
 
     return(
     <Navbar shouldHideOnScroll isBordered onMenuOpenChange={setIsMenuOpen}>

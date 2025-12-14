@@ -11,7 +11,7 @@ function Catalog(){
     const [productsShowed, setProductsShowed] = useState([])
 
     useEffect(()=>{
-        getApi(`../../public/db/productos.json`)
+        getApi(`/db/productos.json`)
         .then((data) => setProducts(data))
         .catch((error) => alert(error));
     },[])
@@ -24,7 +24,7 @@ function Catalog(){
     return(
         <>
             <div className="mb-2">
-                <h1 className="text-xl">TIENDA DE JABONES</h1>
+                <h1 className="text-3xl font-bold">TIENDA DE JABONES</h1>
                 <p>Adquiere tus jabones favoritos aquí.</p>
             </div>
             {products.length === 0?<Progress isIndeterminate aria-label="Loading..." className="max-w-md" size="sm" />:<ItemListContainer products={productsShowed} />}

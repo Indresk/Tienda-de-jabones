@@ -4,22 +4,23 @@ import { Image } from "@heroui/image";
 
 function ItemListContainer({products}){
     return(
-        <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
+        <div className="gap-2 grid grid-cols-1 sm:grid-cols-3">
             {products.map((item) => (
                 <Card as={RouterLink} to={`/product/${item.slug}`} state={{ product: item }} key={item.id} isPressable shadow="sm">
+                <CardHeader><p className="font-bold">{item.nombre}</p></CardHeader>
                 <CardBody className="overflow-visible p-0">
                     <Image
                     alt={item.nombre}
-                    className="w-full object-cover h-[140px]"
+                    className="w-full object-cover h-[340px]"
                     radius="lg"
                     shadow="sm"
-                    src={item.img}
+                    src={item.imagen}
                     width="100%"
                     />
                 </CardBody>
-                <CardFooter className="text-small justify-between">
-                    <b>{item.nombre}</b>
-                    <p className="text-default-500">{item.precio} {item.moneda}</p>
+                <CardFooter className="text-small justify-between flex-wrap">
+                    <p>Más info +</p>
+                    <p className="text-default-500">${item.precio} {item.moneda}</p>
                 </CardFooter>
                 </Card>
             ))}

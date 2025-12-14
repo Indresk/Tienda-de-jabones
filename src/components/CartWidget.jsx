@@ -4,7 +4,7 @@ import { Link as RouterLink } from 'react-router-dom';
 function CartWidget(){
     return(
         <>
-            <Button as={RouterLink} color="primary" to='/' variant="flat">
+            <Button as={RouterLink} color="primary" to='/' variant="solid">
                 Carrito
             </Button>
         </>
