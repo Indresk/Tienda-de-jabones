@@ -9,7 +9,7 @@ import {addToast} from "@heroui/toast";
 import {Table,TableHeader,TableBody,TableColumn,TableRow,TableCell} from "@heroui/table";
 
 export default function ItemDetailContainer() {
-    const { slug } = useParams();
+    const { id } = useParams();
     const location = useLocation();
     const navigate = useNavigate();
     const [product, setProduct] = useState(location.state?.product || null);
@@ -19,13 +19,13 @@ export default function ItemDetailContainer() {
       if (!product) {
         getApi('/db/productos.json')
           .then(data => {
-            const found = data.find(p => p.slug === slug);
+            const found = data.find(p => p.id === id);
             setProduct(found ?? null);
             setLoading(false);
           })
           .catch(() => setLoading(false));
       }
-    }, [slug, product]);
+    }, [id, product]);
 
     if (loading) return <Progress isIndeterminate aria-label="Cargando..." className="max-w-md" size="sm" />;
     if (!product) return <p>Producto no encontrado</p>;

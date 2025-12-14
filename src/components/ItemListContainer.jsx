@@ -6,7 +6,7 @@ function ItemListContainer({products}){
     return(
         <div className="gap-2 grid grid-cols-1 sm:grid-cols-3">
             {products.map((item) => (
-                <Card as={RouterLink} to={`/product/${item.slug}`} state={{ product: item }} key={item.id} isPressable shadow="sm">
+                <Card as={RouterLink} to={`/product/${item.id}`} state={{ product: item }} key={item.id} isPressable shadow="sm">
                 <CardHeader><p className="font-bold">{item.nombre}</p></CardHeader>
                 <CardBody className="overflow-visible p-0">
                     <Image
