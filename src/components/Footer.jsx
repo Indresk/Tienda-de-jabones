@@ -1,8 +1,11 @@
 import { Divider } from "@heroui/divider";
-import { NavLink,Link } from 'react-router-dom'
+import { NavLink, useMatch } from 'react-router-dom'
 import { Button } from "@heroui/button";
 
 function Footer({menuItems}){
+    const match = useMatch({ path: "/cart", end: true });
+    const isActive = Boolean(match);
+
     return(
         <footer>
             <Divider className="mb-4"/>
@@ -21,7 +24,7 @@ function Footer({menuItems}){
                         </ul>
                     </div>
                 </div>
-                <Button as={Link} to='/' size="lg" variant="solid" className="w-full md:w-1/3" color="primary">
+                <Button as={NavLink} to='/cart' size="lg" variant="solid" className="w-full md:w-1/3" color={isActive ? "secondary" : "primary"}>
                     Carrito
                 </Button>
             </div>

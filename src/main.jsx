@@ -4,15 +4,18 @@ import './index.css'
 import App from './App.jsx'
 import {Providers} from "./providers";
 import {HeroUIProvider} from '@heroui/react';
+import ThemeControl from './ThemeControl.jsx';
+
 
 createRoot(document.getElementById('root')).render(
+
   <StrictMode>
     <HeroUIProvider>
-      <main className="light text-foreground bg-background">
-        <Providers>
-          <App />
-        </Providers>
-      </main>
+      <ThemeControl>
+          <Providers>
+            <App />
+          </Providers>
+      </ThemeControl>
     </HeroUIProvider>
   </StrictMode>,
 )

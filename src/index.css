@@ -5,6 +5,7 @@
 @layer theme, base, components, utilities;
 @theme {
    --color-primary: #e46840;
+   --color-secondary: #b5431f;
    --general-grid: auto 1fr auto;
 }
 
